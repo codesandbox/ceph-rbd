@@ -11,10 +11,10 @@ repository = "https://github.com/cholcombe973/ceph-rbd"
 version = "0.3.2"
 
 [build-dependencies]
-bindgen = "0.47.1"
+bindgen = "0.69"
 
 [dependencies]
 ceph = "~3"
 libc = "~0.2"
 log = "~0.4"
-nix = "~0.10"
+nix = "~0.27"
